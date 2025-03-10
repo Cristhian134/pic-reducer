@@ -9,7 +9,7 @@ export function MobileMenu() {
     <>
       <button
         onClick={() => setOpen(true)}
-        className="border-none hover:bg-zinc-100 p-0 flex justify-center items-center box-border border-[1px] aspect-square lg:hidden w-10 h-10"
+        className="border-none bg-inherit hover:bg-zinc-100 p-0 flex justify-center items-center box-border border-[1px] aspect-square lg:hidden w-10 h-10"
       >
         <AlignRight className="size-[2rem] stroke-[1] absolute" />
       </button>
